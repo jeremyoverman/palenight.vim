@@ -36,9 +36,9 @@ let s:p.replace.left    = [ [ s:p_black, s:p_green ], [ s:p_green, s:p_menu_grey
 let s:p.replace.right   = copy(s:p.replace.left)
 let s:p.replace.middle  = copy(s:p.normal.middle)
 
-let s:p.tabline.left    = [ [ s:p_black, s:p_yellow ] ]
-let s:p.tabline.right   = copy(s:p.tabline.left)
-let s:p.tabline.middle  = [ [ s:p_black, s:p_menu_grey ] ]
+let s:p.tabline.left    = [ [ s:p_white, s:p_menu_grey ] ]
+let s:p.tabline.right   = [ [ s:p_black, s:p_yellow ], [ s:p_purple, s:p_menu_grey ] ]
+let s:p.tabline.middle  = [ [ s:p_white, s:p_black ] ]
 let s:p.tabline.tabsel  = [ [ s:p_black, s:p_yellow ] ]
 
 let s:p.inactive.left   = [ [ s:p_black, s:p_menu_grey ], [ s:p_black, s:p_menu_grey ] ]
